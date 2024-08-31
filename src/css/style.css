@@ -1,0 +1,35 @@
+body {
+    width: auto;
+    font-family: sans-serif;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.formulario {
+    table {
+        margin: auto;
+        tr {
+            .buchada {
+                img{
+                    width: 300px;
+                }
+            }
+        }
+        tr {
+            .sarapatel {     
+                img {
+                    width: 300px;
+                }
+            }
+        }
+        tr {
+            .tdb {     
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
