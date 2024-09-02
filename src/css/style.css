@@ -5,31 +5,42 @@ body {
 
 .titulo {
     text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .formulario {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
     table {
+        width: auto;
         margin: auto;
+        font-weight: bold;
+        
         tr {
-            .buchada {
+            .maracuja {
                 img{
                     width: 300px;
                 }
             }
-        }
-        tr {
-            .sarapatel {     
+            .limao-taiti {
                 img {
                     width: 300px;
                 }
             }
-        }
-        tr {
-            .tdb {     
+            .bolo-de-banana {    
                 img {
                     width: 300px;
                 }
             }
         }
     }
+}
+
+a {
+    color: black;
 }

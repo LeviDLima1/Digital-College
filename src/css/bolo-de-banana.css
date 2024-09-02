@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(218, 218, 218);
+
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+
+    background-image: url(https://img.freepik.com/fotos-gratis/parede-de-concreto_53876-88973.jpg?t=st=1725139286~exp=1725142886~hmac=1466644a688afd1c11f39ba3cae321b429ee2ed4c249cc3deecb6d3b8fe1b8c9&w=1380);
+    background-size: 100%;
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        h1 {
+            width: 30%;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: 0px 0px 7px 2px rgb(66, 136, 115);
+            color: rgb(66, 136, 115);
+            padding: 15px 30px;
+            margin: auto;
+        }
+    
+        p {
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            text-align: justify;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-wrap: balance;
+            margin: auto;
+        }
+    }
+
+    .bnt {
+        position: absolute;
+        width: 95%;
+        button {
+            color: transparent;
+            cursor: pointer;
+            width: 20px;
+            height: 40px;
+            display: flex;
+            background-color: none;
+            border: 2px solid rgb(66, 136, 115);
+            border-radius: 5px;
+            align-items: center;
+            justify-content: center;
+            font-size: larger;
+
+            transition: 250ms;
+
+
+            img {
+                width: 30px;
+                color: white;
+            }
+        }
+
+        button:hover{
+            color: rgb(66, 136, 115);
+            box-shadow: 0px 0px 7px 2px rgb(66, 136, 115);
+            width: 130px;
+            height: 40px;
+        }
+    }
+}
+
+.ingredientes {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    .titulos {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 10px 10px 0px 0px;
+        background: linear-gradient(rgb(165, 165, 165), white);
+        h1 {
+            margin-top: 15px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            color: rgb(66, 136, 115);
+        }
+    
+        h2{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            color: rgb(66, 136, 115);
+        }
+    }
+    
+
+    div {
+        display: flex;
+        margin-bottom: 80px;
+        ul {
+            border-radius: 15px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            gap: 6px;
+            padding: 30px 50px;
+            background-image: url(https://i.makeagif.com/media/12-12-2022/OJ7iej.gif);
+            background-size: 100%;
+        }
+        img {
+            width: 38%;
+            margin: auto;
+            align-items: center;
+            border-radius: 15px;
+
+        }
+    }
+    
+}
+
+.preparo {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h1 {
+        padding: 30px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(66, 136, 115);
+        border-radius: 10px 10px 0px 0px;
+        background: linear-gradient(rgb(165, 165, 165), white);
+    }
+
+    ol{
+        border-radius: 15px;
+        width: 38%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 10px;
+        padding: 30px 50px;
+        background-size: 100%;
+
+        li {
+            border-bottom: 1px outset;
+            text-align: justify;
+            font-size: 18px;
+        }
+    }
+}
