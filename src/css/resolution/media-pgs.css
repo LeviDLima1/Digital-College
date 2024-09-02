@@ -1,0 +1,63 @@
+@media (max-width: 450px) {
+    .introducao {
+        background-size: auto;
+        
+        .info {
+            
+            h1 {
+                width: 70%;
+                font-size: 25px;
+                padding: 5px;
+            }
+
+            p {
+                width: 95%; 
+            }
+        }
+    }
+
+    .ingredientes {
+
+        .titulos {
+            
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+        }
+
+        .produtos {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+            ul{
+                width: 200px;
+                background-size: 300%;
+
+                h1 {
+                    font-size: 17px;
+                }
+            }
+
+             img {
+                width: 300px;
+             }
+        }
+
+        
+    }
+    .preparo {
+        h1 {
+            font-size: 20px;
+        }
+
+        ol {
+            width: 70%;
+        }
+    }
+}

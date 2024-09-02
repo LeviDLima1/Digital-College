@@ -111,9 +111,10 @@ body {
     }
     
 
-    div {
+    .produtos {
         display: flex;
         margin-bottom: 80px;
+        position: relative;
         ul {
             border-radius: 15px;
             width: 38%;
@@ -124,6 +125,11 @@ body {
             padding: 30px 50px;
             background-image: url(https://i.makeagif.com/media/12-12-2022/OJ7iej.gif);
             background-size: 100%;
+
+            h1 {
+                font-size: 20px;
+                border-bottom: outset;
+            }
         }
         img {
             width: 550px;

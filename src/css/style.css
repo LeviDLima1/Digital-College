@@ -20,23 +20,10 @@ body {
         width: auto;
         margin: auto;
         font-weight: bold;
+        text-align: center;
         
-        tr {
-            .maracuja {
-                img{
-                    width: 300px;
-                }
-            }
-            .limao-taiti {
-                img {
-                    width: 300px;
-                }
-            }
-            .bolo-de-banana {    
-                img {
-                    width: 300px;
-                }
-            }
+        img {
+            width: 200px;
         }
     }
 }
